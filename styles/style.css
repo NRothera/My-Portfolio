@@ -24,7 +24,7 @@ body{
 }
 div img{
   height:250px;
-  width:220px;
+  width:230px;
   display: block;
   border: solid white 2px;
   border-radius: 40px;
@@ -39,19 +39,19 @@ div img{
   margin: -20px -50px;
   position:relative;
   top:50%;
-  left:50%;
+  left:25%;
 }
 .inspiration button{
   position: absolute;
   top:300px;
-  left: 180px;
-  width:200px;
+  left: 100px;
+  width:800px;
   height: 2px;
   background-color: lightblue;
 }
 #quotes{
-  margin-left: 200px;
-  width: 250px;
+  margin-left: 100px;
+  width: 600px;
   padding-top: 80px;
   font-family: fantasy;
   color: white;
@@ -62,13 +62,12 @@ h2{
   top:330px;
   color:white;
   border-bottom: solid white 1px;
-  margin-left: 20px;
+  margin-left: 33px;
 }
 main{
   font-family: 'Hind', sans-serif;
-
   position: absolute;
-  top: 440px;
+  top: 410px;
   left: 20px;
   width: 700px;
   height: 300px;
