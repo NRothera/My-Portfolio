@@ -65,10 +65,12 @@ h2{
   margin-left: 20px;
 }
 main{
-  border: 2px white solid;
+  font-family: 'Hind', sans-serif;
+
   position: absolute;
   top: 440px;
   left: 20px;
   width: 700px;
   height: 300px;
+  color:black;
 }
