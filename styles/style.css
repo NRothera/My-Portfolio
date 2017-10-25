@@ -56,22 +56,25 @@ div img{
   font-family: fantasy;
   color: white;
   font-weight: bold;
+  
+
 }
 h2{
   position: absolute;
-  top:330px;
+  top:350px;
   color:white;
   border-bottom: solid white 1px;
   margin-left: 33px;
 }
 main{
-  font-family: 'Hind', sans-serif;
+  /*font-family: 'Alegreya', serif;*/
   position: absolute;
   top: 410px;
-  left: 20px;
+  left: 33px;
   width: 700px;
   height: 300px;
-  color:black;
+  color:white;
+  font-size: 20px;
 }
 
 @media screen and (max-width:900px){
