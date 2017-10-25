@@ -74,3 +74,12 @@ main{
   height: 300px;
   color:black;
 }
+
+@media screen and (max-width:600px){
+  #quotes{
+    display: none;
+  }
+  button{
+    display: none;
+  }
+}
