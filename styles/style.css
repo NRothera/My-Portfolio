@@ -19,8 +19,11 @@ nav li {
 nav a{
   color:white;
 }
-body{
+#section1{
   background-image: url("background.jpg");
+  position: absolute;
+  height:1080px;
+  width: 1920px;
 }
 div img{
   height:250px;
@@ -38,21 +41,20 @@ div img{
   width:100px;
   margin: -20px -50px;
   position:relative;
-  top:50%;
-  left:25%;
+  top: 100px;
+  left:290px;
 }
 .inspiration button{
-  position: absolute;
-  top:300px;
-  left: 130px;
-  width:800px;
+  width:650px;
   height: 2px;
+  position: absolute;
+  top: 250px;
+  left: 130px;
   background-color: lightblue;
 }
 #quotes{
   margin-left: 130px;
   width: 600px;
-  padding-top: 80px;
   font-family: fantasy;
   color: white;
   font-weight: bold;
