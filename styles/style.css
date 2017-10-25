@@ -74,7 +74,7 @@ main{
   color:black;
 }
 
-@media screen and (max-width:600px){
+@media screen and (max-width:900px){
   #quotes{
     display: none;
   }
