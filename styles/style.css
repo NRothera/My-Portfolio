@@ -2,6 +2,13 @@ nav{
   background-color: black;
   padding-bottom: 50px;
 }
+nav img{
+  height:30px;
+  width:30px;
+  position: absolute;
+  left: 10px;
+  
+}
 
 nav ul{
   list-style-type: none;
@@ -83,5 +90,10 @@ main{
   }
   button{
     display: none;
+  }
+}
+@media screen and(max-width: 600px){
+  main{
+    width: 50%;
   }
 }
