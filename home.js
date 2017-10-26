@@ -6,6 +6,5 @@ var change_text = function(){
   for (var i = 0; i < 4; i++) {
       var number_generator = Math.floor(Math.random() * 3)
       document.getElementById('quotes').innerHTML = quotes[number_generator];
-
   }
 }

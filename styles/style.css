@@ -1,15 +1,6 @@
 nav {
   background-color: #7C1F35;
   padding-bottom: 80px;
-  width: 100%;
-}
-
-nav img {
-  height:40px;
-  width:40px;
-  position: absolute;
-  left: 10px;
-  padding-bottom: 20px;
 }
 
 nav ul {
@@ -46,7 +37,7 @@ nav a {
   position: absolute;
   top:80px;
   left:60px;
-  box-shadow: 5px 5px grey;
+  box-shadow: 5px 5px darkgrey;
 }
 
 .inspiration {
@@ -106,6 +97,24 @@ footer p{
   color: white;
   margin-left: 80px;
   font-family: 'Dancing Script', cursive;
+}
+
+#section2{
+  background: url("background2.jpg");
+  position: absolute;
+  top: 1160px;
+  width: 1500px;
+  height:1080px;
+
+}
+.container{
+  font-family: sans-serif;
+  position: absolute;
+  left: 70px;
+  width: 700px;
+  height: 300px;
+  color:white;
+  font-size: 20px;
 }
 
 @media screen and (max-width:900px){
