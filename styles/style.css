@@ -1,13 +1,15 @@
 nav {
   background-color: #7C1F35;
   padding-bottom: 80px;
+  width: 100%;
 }
 
 nav img {
-  height:30px;
-  width:30px;
+  height:40px;
+  width:40px;
   position: absolute;
   left: 10px;
+  padding-bottom: 20px;
 }
 
 nav ul {
