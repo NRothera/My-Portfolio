@@ -116,11 +116,13 @@ main{
 }
 
 footer{
+  text-align: center;
   width:100%;
   height:200px;
   position: absolute;
   top: 2200px;
   background-color: black;
+  color:white;
 }
 
 @media screen and (max-width:900px){
