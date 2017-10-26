@@ -1,5 +1,5 @@
 nav{
-  background-color: black;
+  background-color: #7C1F35;
   padding-bottom: 80px;
 }
 nav img{
@@ -31,7 +31,7 @@ nav a{
   background-image: url("background.jpg");
   position: absolute;
   height:1080px;
-  width: 1920px;
+  width: 1400px;
 }
 div img{
   height:250px;
@@ -87,10 +87,17 @@ main{
 }
 
 footer{
-  border: black solid 3px;
-  z-index: -1;
+
+  z-index: 1;
   height: 50px;
-  width: 100px;
+  width: 500px;
+  position: absolute;
+  top:1100px;
+  left:300px;
+}
+footer p{
+  color: white;
+  margin-left: 70px;
 }
 
 @media screen and (max-width:900px){
@@ -101,7 +108,7 @@ footer{
     display: none;
   }
 }
-@media screen and(max-width: 600px){
+@media screen and (max-width: 600px){
   main{
     width: 50%;
   }
