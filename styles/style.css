@@ -1,39 +1,41 @@
-nav{
+nav {
   background-color: #7C1F35;
   padding-bottom: 80px;
 }
-nav img{
+
+nav img {
   height:30px;
   width:30px;
   position: absolute;
   left: 10px;
-
-
 }
 
-nav ul{
+nav ul {
   list-style-type: none;
   margin: 0;
   padding-top:40px;
   float: right;
+  font-size: 25px;
   word-spacing: 50px;
   padding-right: 30px;
   font-weight: bold;
 }
 nav li {
   display: inline;
-
 }
-nav a{
+
+nav a {
   color:white;
 }
-#section1{
+
+#section1 {
   background-image: url("background.jpg");
   position: absolute;
   height:1080px;
-  width: 1400px;
+  width: 1500px;
 }
-div img{
+
+.profile_pic img {
   height:250px;
   width:230px;
   display: block;
@@ -45,7 +47,7 @@ div img{
   box-shadow: 5px 5px grey;
 }
 
-.inspiration{
+.inspiration {
   height:20px;
   width:100px;
   margin: -20px -50px;
@@ -53,6 +55,7 @@ div img{
   top: 100px;
   left:290px;
 }
+
 .inspiration button{
   width:650px;
   height: 2px;
@@ -61,6 +64,7 @@ div img{
   left: 130px;
   background-color: lightblue;
 }
+
 #quotes{
   margin-left: 130px;
   width: 600px;
@@ -75,6 +79,7 @@ div img{
   color:white;
   margin-left: 70px;
 }
+
 main{
   font-family: sans-serif;
   position: absolute;
@@ -87,17 +92,18 @@ main{
 }
 
 footer{
-
   z-index: 1;
   height: 50px;
   width: 500px;
   position: absolute;
   top:1100px;
-  left:300px;
+  left:450px;
 }
+
 footer p{
   color: white;
-  margin-left: 70px;
+  margin-left: 80px;
+  font-family: 'Dancing Script', cursive;
 }
 
 @media screen and (max-width:900px){
@@ -108,8 +114,9 @@ footer p{
     display: none;
   }
 }
+
 @media screen and (max-width: 600px){
   main{
-    width: 50%;
+    width: 400px;
   }
 }
