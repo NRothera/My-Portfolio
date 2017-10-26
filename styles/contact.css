@@ -1,12 +1,17 @@
 nav{
   background-color: black;
-  padding-bottom: 50px;
+  padding-bottom: 80px;
 }
-
+nav img{
+  height:30px;
+  width:30px;
+  position: absolute;
+  left: 10px;
+}
 nav ul{
   list-style-type: none;
   margin: 0;
-  padding-top:20px;
+  padding-top:40px;
   float: right;
   word-spacing: 50px;
   padding-right: 30px;

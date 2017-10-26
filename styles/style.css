@@ -87,8 +87,10 @@ main{
 }
 
 footer{
-  border: white solid 3px;
+  border: black solid 3px;
   z-index: -1;
+  height: 50px;
+  width: 100px;
 }
 
 @media screen and (max-width:900px){
