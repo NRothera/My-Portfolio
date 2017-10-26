@@ -83,15 +83,6 @@ main{
   font-size: 25px;
 }
 
-footer{
-  z-index: 1;
-  height: 50px;
-  width: 500px;
-  position: absolute;
-  top:1100px;
-  left:450px;
-}
-
 #section2{
   background: url("background2.jpg");
   background-size: 100%;
@@ -113,6 +104,10 @@ footer{
   left:510px;
   bottom: 0px;
   top: 900px;
+}
+
+#titles{
+  
 }
 
 #contact-list{
